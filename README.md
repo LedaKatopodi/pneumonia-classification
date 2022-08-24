@@ -17,4 +17,8 @@ A project walkthrough with comments and observations can be found in this [Pytho
 
 The weights from the pre-trained model trained on Imagenet can be found in  the [aux directory](/aux/).
 
-The final models are also supplied with this repository, and can be found in the [out directory](/out/). 
+The final models are also supplied with this repository, and can be found in the [out directory](/out/).
+
+### 🎆 So, how is this different from other approaches?
+
+Contrary to existing approaches that usually focus on more sophisticated NN architectures or on transfer learning (although we also do that), the project's approach is more data-centric. It leverages on image processing techniques that reshape the input and, consequently, "help" the model perform better. In the frame of this project, 3 different combinations of image processing techniques are compared, and we observe an increase in accuracy from ~75% to 100%!
